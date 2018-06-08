@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ltta",
+  "name": "Linking Through the Ages",
+  "description": "A guidebook for Mystcraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheFloydman"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,47 @@
+<library>
+
+    <template id="small_recipe_centered" height="39">
+        <image src="gbook:gui/recipe_backgrounds" x="50" w="78" h="39" tx="11" ty="61" />
+        <element index="0" x="51" y="2" />
+        <element index="1" x="71" y="2" />
+        <element index="2" x="51" y="21" />
+        <element index="3" x="71" y="21" />
+        <element index="4" x="109" y="12" />
+    </template>
+    
+    <template id="large_recipe_centered" height="58">
+        <image src="gbook:gui/recipe_backgrounds" x="40" w="97" h="58" tx="2" ty="1" />
+        <element index="0" x="42" y="2" />
+        <element index="1" x="61" y="2" />
+        <element index="2" x="80" y="2" />
+        <element index="3" x="42" y="21" />
+        <element index="4" x="61" y="21" />
+        <element index="5" x="80" y="21" />
+        <element index="6" x="42" y="40" />
+        <element index="7" x="61" y="40" />
+        <element index="8" x="80" y="40" />
+        <element index="9" x="118" y="21" />
+    </template>
+    
+    <template id="filled_ink_mixer_centered" height="65">
+        <image src="ltta:gui_inkmixer" x="5" w="164" h="65" tx="0" ty="65" />
+        <element index="0" x="6" y="10" />
+        <element index="1" x="7" y="33" />
+        <element index="2" x="150" y="10" />
+        <element index="3" x="151" y="33" />
+    </template>
+    
+    <template id="filled_writingdesk" height="72">
+        <image src="ltta:gui_writingdesk_right" w="164" h="72" />
+        <element index="0" x="2" y="2" />
+        <element index="1" x="146" y="2" />
+        <element index="2" x="146" y="54" />
+    </template>
+    
+    <template id="filled_bookbinder" height="94">
+        <image src="ltta:gui_bookbinder" w="164" h="94" />
+        <element index="0" x="2" y="24" />
+        <element index="1" x="146" y="24" />
+    </template>
+    
+</library>

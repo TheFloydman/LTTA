@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gbook"
+    }
+  ],
+  "ingredients": [
+    { "item": "minecraft:paper",
+      "data" : 0
+    },
+    { "item": "minecraft:dye",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "gbook:guidebook",
+    "nbt": "{Book:\"ltta:xml/ltta.xml\"}",
+    "data": 0
+  }
+}

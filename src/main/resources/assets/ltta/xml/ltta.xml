@@ -1,0 +1,524 @@
+<book title="Linking Through the Ages" cover="ltta:ltta_cover" fontSize="0.6">
+
+    <include ref="ltta:xml/library.xml" />
+    <!--<include ref="guidebook:xml/standard.xml" />-->
+    
+	<chapter id="ch1">
+		<page id="pageIntro">
+			<p underline="true" bold="true" align="center" space="20">Introduction</p>
+			<p space="10">The ancient D'ni people have known the Art of Writing for countless millenia, and now this knowledge will be passed on to you! "Linking Through the Ages" was written by TheFloydman and is divided into two parts:</p>
+			<p space="10">The first half covers the basics of how to craft Linking Books and Descriptive Books, the means by which you will Link (or warp) to countless Ages--worlds with varying seas, terrains, heavens, and treasures.</p>
+			<p space="10">More details about how to write better Links can be found in the second half.</p>
+			<p space="10">If you lose this book, you can craft a new one at any time:</p>
+			<small_recipe_centered>
+                <stack ore="dyeBlack" />
+                <space />
+                <stack item="minecraft:paper" />
+                <space />
+                <stack item="gbook:guidebook" />
+            </small_recipe_centered>
+		</page>
+		<page id="pageTOC">
+		    <p underline="true" bold="true" align="center" space="20">Table of Contents</p>
+		    <p bold="true" align="center" space="10">Rehlehm: The Ink</p>
+		    <link ref="ch1:pageInk" align="center">Ink &amp; the Ink Mixer</link>
+		    <link ref="ch1:pageLinkingBooks1" align="center">Linking Books</link>
+		    <link ref="ch1:pagePages1" align="center">Pages</link>
+		    <link ref="ch1:pageWritingDeskRecipe1" align="center">The Writing Desk</link>
+		    <link ref="ch1:pageBookBinderRecipe" align="center">The Book Binder</link>
+		    <link ref="ch1:pageFolders" align="center">Folders &amp; Portfolios</link>
+		    <link ref="ch1:pageBookstands" align="center">Bookstands &amp; Lecterns</link>
+		    <link ref="ch1:pagePortals1" align="center">Portals</link>
+		    <space height="20" />
+		    <p bold="true" align="center" space="10">Rehgehstoy: The Art</p>
+            <p align="center">Grammar</p>
+            <link ref="ch1:pageQuickGuide1" align="center">Quick Guide - Intro</link>
+            <link ref="ch1:pageQuickGuide2" align="center">Quick Guide - Features</link>
+            <link ref="ch1:pageQuickGuide8" align="center">Quick Guide - Modifiers</link>
+            <space height="20" />
+            <link ref="ch1:pageSpecialThanks1" align="center">Special Thanks</link>
+		</page>
+		<page id="pageInk">
+		    <p underline="true" bold="true" align="center" space="20">Ink</p>
+		    <p space="30">Ink is the lifeblood of Writing. You will use it to both craft Linking Panels for use in Linking Books and Descriptive Books as well as to copy Pages so that you can use them over and over.</p>
+		    <small_recipe_centered>
+                <stack ore="dyeBlack" />
+                <stack ore="dyeBlack" />
+                <stack item="minecraft:potion" />
+                <space />
+                <stack item="mystcraft:vial" />
+            </small_recipe_centered>
+            <space height="30" />
+            <p>Because of its usefulness, you will want to stock up on as many Ink Vials as possible. If Ink Sacs are in short supply, you may be able to find other sources....</p>
+		</page>
+		<page id="pageInkMixerRecipe">
+		    <p underline="true" bold="true" align="center" space="20">The Ink Mixer</p>
+		    <p space="10">Ink Mixers are used to craft Linking Panels, which are an essential component in any Linking Book or Descriptive Book. Because of this, your Ink Mixer will be one of your most-used blocks.</p>
+		    <p space="30">You will use your Ink Mixer to combine Ink and Paper into Linking Panels, the gateways through which you will travel to other Ages.</p>
+		    <large_recipe_centered>
+                <stack ore="stone" />
+                <space />
+                <stack ore="stone" />
+                <stack ore="stone" />
+                <stack item="minecraft:glass_bottle" />
+                <stack ore="stone" />
+                <stack ore="plankWood" />
+                <stack ore="stone" />
+                <stack ore="plankWood" />
+                <stack item="mystcraft:blockinkmixer" />
+            </large_recipe_centered>
+		</page>
+		<page id="pageInkMixerGui1">
+		    <image src="ltta:gui_inkmixer" x="10" w="164" h="65" />
+		    <space height="40" />
+		    <p space="10">This is the Ink Mixer UI. You may access it by right-clicking an Ink Mixer that has been placed in the world. There are four slots: the two on the left accept Ink Vials and Paper, and the two on the right export Glass Bottles and Linking Panels.</p>
+		    <p>If the center Inkwell is ever empty, it will attempt to pull Ink from an Ink Vial on the left. Removing a Linking Panel from the right side will use up the Ink in the Inkwell.</p>
+		</page>
+		<page id="pageInkMixerGui2">
+		    <p space="10">While the Ink is in the Inkwell, it may be mixed with other items to produce Linking Panels with unique properties.</p>
+		    <p space="50">There have long been rumors of Linking Panels that disarm travellers, maintain their momentum, or even allow them to travel within the same Age. You will need to experiment to see what you can create.</p>
+		    <filled_ink_mixer_centered>
+		        <stack item="mystcraft:vial" />
+		        <stack item="minecraft:paper" />
+		        <stack item="minecraft:glass_bottle" />
+		        <stack item="mystcraft:page" />
+		    </filled_ink_mixer_centered>
+		</page>
+		<page id="pageLinkingBooks1">
+		    <p underline="true" bold="true" align="center" space="20">Linking Books</p>
+		    <p space="10">With the Art, there are two main two ways to travel between Ages: Descriptive Books and Linking Books. We'll get to Descriptive Books later, but we'll discuss Linking Books now.</p>
+		    <p space="40">Linking Books do not establish Links to new Ages; rather, they allow you to travel between Ages you already have access to.</p>
+		    <small_recipe_centered>
+		        <stack item="minecraft:leather" />
+                <stack item="mystcraft:page" />
+                <space />
+                <space />
+                <stack item="mystcraft:unlinkedbook" />
+		    </small_recipe_centered>
+		</page>
+		<page id="pageLinkingBooks2">
+		    <p space="10">When you first craft a Linking Book, it will be Unlinked. Right-clicking an Unlinked Link Book while it is in your dominant hand will bind it to the spot on which it is used. Using that Linking Book at any future time will always return you to the spot it is bound to. You will never be able to change it.</p>
+		    <p space="15">You should never--</p>
+		    <p space="15" bold="true" align="center">NEVER</p>
+		    <p space="10">--travel to a new Age without an activated Linking Book to return you home. You can very easily become trapped in an Age if you do not take a Linking Book with you. On very rare occasions (unless you use a specific Page in your Descriptive Book), you may chance upon a Star Fissure that will return you to the overworld, but you cannot depend on that method of travel.</p>
+		</page>
+		<page id="pagePages1">
+		    <p underline="true" bold="true" align="center" space="20">Pages</p>
+		    <p space="30">Descriptive Books are the means by which you will travel to new Ages, and the more specific your Descriptive Books are, the more control you will have over which Ages you travel to. In order to write Descriptive Books, you will want Pages, which can be obtained in three ways:</p>
+		    <p>1. they may be purchased from Archivist villagers;</p>
+		    <image src="ltta:photos_pages" w="180" h="94" />
+		</page>
+		<page id="pagePages2">
+		    <p x="-5">2. they may be found in the Libraries that are scattered throughout the Ages;</p>
+		    <image src="ltta:photos_pages" x="-10" w="180" h="94" tx="0" ty="95" />
+		    <space height="30" />
+		    <p x="-5">3. they may be copied using a Writing Desk;</p>
+		    <image src="ltta:3d_writingdesk" x="-10" w="180" h="100" />
+        </page>
+        <page id="pageWritingDeskRecipe1">
+            <p underline="true" bold="true" align="center" space="20">The Writing Desk</p>
+            <p space="10">A Writing Desk will be extremely useful to you as you collect more and more Pages.</p>
+            <p space="40">This "block" takes up two spaces when placed and will greatly aid your organization, as well as allow you to more specifically define the Links to your Ages.</p>
+            <large_recipe_centered>
+                <stack item="minecraft:glass_bottle" />
+                <space />
+                <stack item="minecraft:feather" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <space />
+                <stack ore="plankWood" />
+                <stack item="mystcraft:writingdesk" />
+            </large_recipe_centered>
+        </page>
+        <page id="pageWritingDeskRecipe2">
+        <space height="20" />
+            <large_recipe_centered>
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack item="minecraft:item_frame" />
+                <stack ore="plankWood" />
+                <space />
+                <space />
+                <space />
+                <stack item="mystcraft:writingdesk" meta="1" />
+            </large_recipe_centered>
+            <space height="50" />
+            <p space="10">You may craft a decorative Backboard for your Writing Desk if you would like to add a little flair. It will not change the function of the Writing Desk or grant you any advantages, but you will be the envy of all your fellow Writers.</p>
+            <p>Apple the Backboard by right-clicking on an already-placed Writing Desk.</p>
+        </page>
+        <page id="pageWritingDeskGUI1">
+            <p space="10">The Writing Desk UI is split into two halves.</p>
+            <p space="20">The left half has 25 slots (each marked with a D'ni numeral), and each slot can hold a Page, Descriptive Book, Collation Folder, or Symbol Portfolio. The full contents of a selected slot will appear in the dark display area.</p>
+            <image src="ltta:gui_writingdesk_left_cut" w="180" h="151" />
+        </page>
+        <page id="pageWritingDeskGUI2">
+            <p space="10">The right half of the UI has four slots you will interact with.</p>
+            <p space="10">Placing an Ink Vial in the top-right slot will fill the vertical inkwell and leave a Glass Bottle in the bottom-right slot. You will also need to place paper in the top-left slot to get started.</p>
+            <p space="20">To copy any page, right-click it in the dark display area in the left UI, and a copy will appear in the bottom-left slot of the right UI. If you place a Collation Folder in that slot, all copied Pages will be placed--in order--inside the Folder.</p>
+            <filled_writingdesk>
+                <stack item="minecraft:paper"/>
+                <stack item="mystcraft:vial"/>
+                <stack item="minecraft:glass_bottle"/>
+            </filled_writingdesk>
+        </page>
+        <page id="pageBookBinderRecipe">
+        <p underline="true" bold="true" align="center" space="20">The Book Binder</p>
+            <p space="60">The final step in the Descriptive Book creation process is to craft a Book Binder. This block will allow you to combine all of the Pages you want to include in your Descriptive Book.</p>
+            <large_recipe_centered>
+                <stack item="minecraft:iron_ingot" />
+                <stack item="minecraft:iron_ingot" />
+                <stack item="minecraft:iron_ingot" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <space />
+                <stack ore="plankWood" />
+                <stack item="mystcraft:blockbookbinder" />
+            </large_recipe_centered>
+        </page>
+        <page id="pageBookBinderGUI">
+            <p space="10">Right-click in a placed Book Binder to open its UI. The long skinny box at the top if for naming your Age. The slot on the left if for Leather. The dark display area if where you place Pages.</p>
+            <p space="10">The first Page you should place is a Linking Panel. If you have not placed one, a red transparent Linking Panel will appear next to the left slot.</p>
+            <p space="20"> When you have met all the requirements, a Descriptive Book will appear in the right slot for you to remove to your inventory.</p>
+            <filled_bookbinder>
+                <stack item="minecraft:leather"/>
+                <stack item="mystcraft:agebook"/>
+            </filled_bookbinder>
+        </page>
+        <page id="pageFolders">
+            <p underline="true" bold="true" align="center" space="20">Folders &amp; Portfolios</p>
+            <p space="10">Collation Folders hold an infinite number of Pages in the order in which they are placed, and they cannot be automatically sorted.</p>
+            <p space="50">They can often be treated like Pages, though, so you may place a Collation Folder in the Book Binder UI (thereby placing all of the Pages therein), or you may empty its contents into a Symbol Portfolio or another Collation Folder.</p>
+            <large_recipe_centered>
+                <space />
+                <stack item="minecraft:leather" />
+                <space />
+                <stack item="minecraft:string" />
+                <space />
+                <space />
+                <space />
+                <stack item="minecraft:leather" />
+                <space />
+                <stack item="mystcraft:folder" />
+            </large_recipe_centered>
+        </page>
+        <page id="pagePortfolios">
+            <p space="10">Symbol Portfolios also hold an infinite number of Pages, but identical Pages within them are stacked. They can be sorted alphabetically.</p>
+            <p space="50">It is good practice to carry one with you at all times to ensure you have sufficient space to carry any Pages you may encounter.</p>
+            <large_recipe_centered>
+                <stack item="minecraft:leather" />
+                <stack item="minecraft:leather" />
+                <stack item="minecraft:leather" />
+                <stack item="minecraft:string" />
+                <space />
+                <space />
+                <stack item="minecraft:leather" />
+                <stack item="minecraft:leather" />
+                <stack item="minecraft:leather" />
+                <stack item="mystcraft:portfolio" />
+            </large_recipe_centered>
+        </page>
+        <page id="pageBookstands">
+            <p underline="true" bold="true" align="center" space="20">Bookstands &amp; Lecterns</p>
+            <p space="10">Bookstands can be used to display and protect Linking Books and Descriptive Books.</p>
+            <p space="50">When placed in the world, they will face you, no matter which direction you are facing (just like a Sign). Place your Book on a Bookstand, and it will be safe from damage and will not fall to the ground when used.</p>
+            <large_recipe_centered>
+                <stack item="minecraft:stick" />
+                <space />
+                <stack item="minecraft:stick" />
+                <space />
+                <stack ore="plankWood" />
+                <space />
+                <space />
+                <space />
+                <space />
+                <stack item="mystcraft:blockbookstand" />
+            </large_recipe_centered>
+        </page>
+        <page id="pageLecterns">
+            <p space="10">Lecterns take up a whole block and face one of the four compass directions.</p>
+            <p space="60">Just like Bookstands, they will protect your Books from damage and will prevent them from falling to the ground when used. Lecterns have the added bonus of being able to display Pages as well as Books.</p>
+            <large_recipe_centered>
+                <stack ore="plankWood" />
+                <space />
+                <space />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack item="minecraft:stick" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack ore="plankWood" />
+                <stack item="mystcraft:blocklectern" />
+            </large_recipe_centered>
+        </page>
+        <page id="pagePortals1">
+            <p underline="true" bold="true" align="center" space="20">Portals</p>
+            <p space="10">Portals are a part of everyday life: We already use them to visit places like the Nether and the End. Now Portals can also be used to travel to any Age!</p>
+            <p space="20">Portals are made up of Crystal blocks, and they may be any size or shape so long as the shape is closed.</p>
+            <stack item="mystcraft:blockcrystal" z="0" />
+            <stack item="mystcraft:blockcrystal" z="10" y="-8" />
+            <stack item="mystcraft:blockcrystal" z="20" y="-16" />
+            <stack item="mystcraft:blockcrystal" z="30" y="-24" />
+            <stack item="mystcraft:blockcrystal" z="40" y="-32" />
+        </page>
+        <page id="pagePortals2">
+        </page>
+        <page id="pageQuickGuide1">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Intro</p>
+            <p space="10">This Quick Guide should be a great reference when you are deciding how to define your Links. Use them to determine the order in which you should put your Pages.</p>
+            <p color="#BC0A0A" space="10">Red text points out which Pages add instablity.</p>
+            <p color="#0BBC31" space="10">Green text points out which Pages add stablity.</p>
+            <p space="10">{Text in curly brackets defines which modifier you should use. With very little exception, you can add one modifier for every "+".}</p>
+            <p space="10">Group titles followed by "(1)" mean that if you add more than one Page of that type, it will add instablity to the Age.</p>
+        </page>
+        <page id="pageQuickGuide2">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+            <p underline="true" align="center">Biome Distributions* (1)</p>
+            <p align="center">{+++biome} Huge</p>
+            <p align="center">{+++biome} Large</p>
+            <p align="center">{+++biome} Medium</p>
+            <p align="center">{+++biome} Small</p>
+            <p align="center">{+++biome} Tiny</p>
+            <p align="center">{++biome} Tiled</p>
+            <p align="center">{++biome} Grid-form</p>
+            <p align="center">{+biome} Single</p>
+            <p align="center">Native</p>
+            <space height="20" />
+            <p underline="true" align="center">World Landscapes (1)</p>
+            <p align="center">{+terBlock +seaBlock} Cave</p>
+            <p align="center">{+terBlock +seaBlock} Island</p>
+            <p align="center">{+terBlock +seaBlock} Standard</p>
+            <p align="center">{+terBlock +seaBlock} Amp Normal</p>
+            <p align="center">{+terBlock +seaBlock} Flat</p>
+            <p align="center">Void</p>
+            <space height="20" />
+            <p>*Each "+" represents a required modifier. You can add more.</p>
+        </page>
+        <page id="pageQuickGuide3">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+            <p underline="true" align="center">Large World Features</p>
+            <p align="center">{+biome +strBlock} Float Islands</p>
+            <p align="center">{+strBlock} Tendrils</p>
+            <p align="center">Skylands</p>
+            <p align="center">Caves</p>
+            <p align="center">Dense Ores</p>
+            <p align="center">Huge Trees</p>
+            <p align="center">Lacking Large Features</p>
+            <space height="20" />
+            <p underline="true" align="center">Medium World Features</p>
+            <p align="center">Nether Fortress</p>
+            <p align="center">Villages</p>
+            <p align="center">Strongholds</p>
+            <p align="center">Mineshafts</p>
+            <p align="center">Ravines</p>
+            <p align="center">{+strBlock} Spheres</p>
+            <p align="center">Dungeons</p>
+            <p align="center">{+strBlock} Spikes</p>
+            <p color="#BC0A0A" align="center">Lacking Medium Features</p>
+            <space height="10" />
+        </page>
+        <page id="pageQuickGuide4">
+        <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+            <p underline="true" align="center">Small World Features</p>
+            <p align="center">Star Fissure</p>
+            <p align="center">{+strBlock} Obelisks</p>
+            <p align="center">{+fluBlock} Surface Lakes</p>
+            <p align="center">{+fluBlock} Deep Lakes</p>
+            <p align="center">{+cryBlock} Crystalline Formations</p>
+            <p color="#BC0A0A" align="center">Lacking Small Features</p>
+            <space height="20" />
+            <p underline="true" align="center">Moon</p>
+            <p align="center">{+col +length +dir +phase} Normal</p>
+            <p align="center">Dark</p>
+            <space height="20" />
+            <p underline="true" align="center">Sun</p>
+            <p align="center">{+col +length +dir +phase} Normal</p>
+            <p align="center">Dark</p>
+            <space height="20" />
+            <p underline="true" align="center">Stars</p>
+            <p align="center">{+col +length +dir} Normal</p>
+            <p align="center">{+color/gradient} Ender Starfield</p>
+            <p align="center">{+col/gra +length +dir} Twinkling</p>
+            <p align="center">Dark</p>
+        </page>
+        <page id="pageQuickGuide5">
+        <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+            <p underline="true" align="center">Weather (1)</p>
+            <p align="center">Eternal Snow</p>
+            <p align="center">Eternal Rain</p>
+            <p align="center">Eternal Storm</p>
+            <p align="center">Eternal Weather</p>
+            <p align="center">Fast Weather</p>
+            <p align="center">Normal Weather</p>
+            <p align="center">Slow Weather</p>
+            <p align="center">No Weather</p>
+            <p align="center">Overcast</p>
+            <space height="20" />
+            <p underline="true" align="center">Lightning (1)</p>
+            <p color="#BC0A0A" align="center">Bright</p>
+            <p align="center">Normal</p>
+            <p align="center">Dark</p>
+        </page>
+        <page id="pageQuickGuide6">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+            <p underline="true" align="center">Visuals</p>
+            <p align="center">{+color} Foliage Color</p>
+            <p align="center">Natural Foliage Color</p>
+            <p align="center">{+color} Grass Color</p>
+            <p align="center">Natural Grass Color</p>
+            <p align="center">{+color} Water Color</p>
+            <p align="center">Natural Water Color</p>
+            <p align="center">Boundless Sky</p>
+            <p align="center">{+col/gra} Night Sky Color</p>
+            <p align="center">{+col/gra} Sky Color</p>
+            <p align="center">Natural Sky Color</p>
+            <p align="center">{+col/gra} Cloud Color</p>
+            <p align="center">Natural Cloud Color</p>
+            <p align="center">{+col/gra} Fog Color</p>
+            <p align="center">Natural Fog Color</p>
+            <p align="center">+{direction} Rainbow</p>
+        </page>
+        <page id="pageQuickGuide7">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+            <p underline="true" align="center">Effects</p>
+            <p color="#BC0A0A" align="center">Accelerated</p>
+            <p color="#0BBC31" align="center">Lightning</p>
+            <p color="#0BBC31" align="center">Meteors</p>
+            <p color="#0BBC31" align="center">Scorched Surface</p>
+            <p color="#0BBC31" align="center">Spontaneous Explosions</p>
+            <space height="20" />
+            <p underline="true" align="center">Miscellaneous</p>
+            <p align="center">Anti-PvP></p>
+            <p color="#BC0A0A" align="center">{+optional} Clear Modifiers*</p>
+            <space height="20" />
+            <p>*You can add as few or as many modifiers as you would like.</p>
+        </page>
+        <page id="pageQuickGuide8">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
+            <p underline="true" align="center">Phase</p>
+            <p align="center">Rising</p>
+            <p align="center">Zenith</p>
+            <p align="center">Setting</p>
+            <p align="center">Nadir</p>
+            <space height="20" />
+            <p underline="true" align="center">Length</p>
+            <p align="center">Double</p>
+            <p align="center">Full</p>
+            <p align="center">Half</p>
+            <p align="center">Zero</p>
+            <space height="20" />
+            <p underline="true" align="center">Direction</p>
+            <p align="center">North</p>
+            <p align="center">South</p>
+            <p align="center">East</p>
+            <p align="center">West</p>
+        </page>
+        <page id="pageQuickGuide9">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
+            <p underline="true" align="center">Colors</p>
+            <p align="center">Red</p>
+            <p align="center">Maroon</p>
+            <p align="center">Yellow</p>
+            <p align="center">Olive</p>
+            <p align="center">Green</p>
+            <p align="center">Dark Green</p>
+            <p align="center">Cyan</p>
+            <p align="center">Teal</p>
+            <p align="center">Blue</p>
+            <p align="center">Navy</p>
+            <p align="center">Purple</p>
+            <p align="center">Magenta</p>
+            <p align="center">White</p>
+            <p align="center">Gray</p>
+            <p align="center">Silver</p>
+            <p align="center">Black</p>
+            <space height="20" />
+            <p underline="true" align="center">Gradients</p>
+            <p align="center">{+color +length} Gradient</p>
+            <p align="center">{+color/gradient} Sunset Color</p>
+        </page>
+        <page id="pageQuickGuide10">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
+            <p underline="true" align="center">Biome</p>
+            <p align="center">All Vanilla Biomes</p>
+            <p align="center">Many Mod Biomes</p>
+            <space height="20" />
+            <p underline="true" align="center">Terrain (terBlock)</p>
+            <p align="center">Compressed Ice</p>
+            <p align="center">Obsidian</p>
+            <p align="center">Dirt</p>
+            <p align="center">Sandstone</p>
+            <p align="center">Stone</p>
+            <p align="center">Netherrack</p>
+            <p align="center">End Stone</p>
+            <space height="20" />
+            <p underline="true" align="center">Crystalline (cryBlock)</p>
+            <p align="center">Ice</p>
+            <p align="center">Compressed Ice</p>
+            <p align="center">Snow</p>
+            <p align="center">Glass</p>
+            <p align="center">Crystal</p>
+            <p color="#BC0A0A" align="center">Nether Quartz Ore</p>
+            <p align="center">Glowstone</p>
+        </page>
+        <page id="pageQuickGuide11">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
+            <p underline="true" align="center">Sea (seaBlock)</p>
+            <p align="center">Lava</p>
+            <p align="center">Water</p>
+            <p align="center">No Seas</p>
+            <p align="center">Black Ink</p>
+            <p align="center">Ice</p>
+            <p align="center">Compressed Ice</p>
+            <space height="20" />
+            <p underline="true" align="center">Fluid (fluBlock)</p>
+            <p align="center">Lava</p>
+            <p align="center">Water</p>
+            <p align="center">Black Ink</p>
+            <p align="center">Ice</p>
+            <p align="center">Compressed Ice</p>
+        </page>
+        <page id="pageQuickGuide12">
+            <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
+            <p underline="true" align="center">Structure (strBlock)</p>
+            <p align="center">Ice</p>
+            <p align="center">Compressed Ice</p>
+            <p align="center">Obsidian</p>
+            <p align="center">Dirt</p>
+            <p align="center">Sandstone</p>
+            <p align="center">Stone</p>
+            <p align="center">Netherrack</p>
+            <p align="center">End Stone</p>
+            <p align="center">Any Wood</p>
+            <p align="center">Snow</p>
+            <p align="center">Glass</p>
+            <p align="center">Crystal</p>
+            <p color="#BC0A0A" align="center">Any Ore</p>
+            <p align="center">Nether Brick</p>
+            <p align="center">Glowstone</p>
+            <space height="20" />
+            <p>Any mods you have installed may add modifiers, especially for biomes and blocks.</p>
+        </page>
+        <page id="pageSpecialThanks1">
+            <p underline="true" bold="true" align="center" space="20">Special Thanks</p>
+            <p space="10">The author owes a debt of gratitude to many people.</p>
+            <p bold="true">Narotiza</p>
+            <p space="10">Narotiza's online guide was indispensable in the creation of this book, including a few images.</p>
+            <p bold="true">Atrius</p>
+            <p space="10">Atrius' knowledge of the rules of the Art helped shape the grammar section.</p>
+            <p bold="true">TrianguloY</p>
+            <p space="10">TrianguloY created very helpful quick guides (in PowerPoint, no less) that were copied almost verbatim for the quick guides in this volume.</p>
+            <p bold="true">Gigaherz</p>
+            <p space="10">Gigaherz wrote and maintains the Guidebook mod, without which this guide would have had to be coded from scratch.</p>
+        </page>
+        <page id="pageSpecialThanks2">
+            <p bold="true">XCompWiz, CyanideX, &amp; HellFirePVP</p>
+            <p space="10">These three created and maintain the amazing Mystcraft mod. I sincerely hope this guide complements their work and makes it more accessible to the average player.</p>
+        </page>
+	</chapter>
+</book>

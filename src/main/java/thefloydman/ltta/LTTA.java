@@ -29,7 +29,7 @@ public class LTTA {
     @Optional.Method(modid="gbook")
     @SubscribeEvent
     public static void registerBook (BookRegistryEvent event) {
-    	event.register(new ResourceLocation(MODID + ":xml/book.xml"));
+    	event.register(new ResourceLocation(MODID + ":xml/ltta.xml"));
     }
     
     // Define guidebook ItemStack.

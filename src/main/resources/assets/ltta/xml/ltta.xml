@@ -31,7 +31,7 @@
 		    <link ref="ch1:pagePortals1" align="center">Portals</link>
 		    <space height="20" />
 		    <p bold="true" align="center" space="10">Rehgehstoy: The Art</p>
-            <p align="center">Grammar</p>
+            <link ref="ch1:pageGrammar1" align="center">Grammar</link>
             <link ref="ch1:pageQuickGuide1" align="center">Quick Guide - Intro</link>
             <link ref="ch1:pageQuickGuide2" align="center">Quick Guide - Features</link>
             <link ref="ch1:pageQuickGuide8" align="center">Quick Guide - Modifiers</link>
@@ -260,13 +260,41 @@
             <p underline="true" bold="true" align="center" space="20">Portals</p>
             <p space="10">Portals are a part of everyday life: We already use them to visit places like the Nether and the End. Now Portals can also be used to travel to any Age!</p>
             <p space="20">Portals are made up of Crystal blocks, and they may be any size or shape so long as the shape is closed.</p>
-            <stack item="mystcraft:blockcrystal" z="0" />
-            <stack item="mystcraft:blockcrystal" z="10" y="-8" />
-            <stack item="mystcraft:blockcrystal" z="20" y="-16" />
-            <stack item="mystcraft:blockcrystal" z="30" y="-24" />
-            <stack item="mystcraft:blockcrystal" z="40" y="-32" />
+            <image src="ltta:photo_portal" w="180" h="105" />
+            <space height="20" />
         </page>
         <page id="pagePortals2">
+        	<p space="20">To activate a Portal, attach a Book Receptacle to a Portal block on any side but the underside. A Receptacle is easy to craft:</p>
+        	<large_recipe_centered>
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockcrystal" />
+                <space />
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockcrystal" />
+                <stack item="mystcraft:blockbookreceptacle" />
+            </large_recipe_centered>
+            <space height="20" />
+            <p space="10">Book Receptacles will accept any activated Linking Book or used Descriptive Book, and they will inherit any special properties from the Linking Panels therein.</p>
+        	<p>WARNING: Portals do not spawn other Portals, so you will need a Portal or a Book in the destination Age to return.</p>
+        </page>
+        <page id="pageGrammar1">
+        	<p underline="true" bold="true" align="center" space="20">Grammar</p>
+        	<p space="20">The grammar of the Art is very easy to understand at the top level. It follows a simple formula:</p>
+        	<p space="20" align="center" italics="true">modifier + feature</p>
+        	<p space="20">This means that when arranging Pages, you must always place the Page you want modified after the Page (or Pages) that modify it. For example:</p>
+        	<p space="20" align="center" italics="true">Page: Red Color + Page: Sky Color</p>
+        	<p space="10">will generate a red sky.</p>
+        	<p>There are several feature Pages that require more than one modifier and some that require none. These are covered in the Quick Guides.</p>
+        </page>
+        <page id="pageGrammar2">
+        	<p space="20">Things become more complicated when you add several modifier Pages before a feature Page. The first modifier is always given the greatest weight, but successive modifiers also have an effect. For example,</p>
+        	<p space="20" align="center" italics="true">Page: Red Color + Page: Blue Color + Page: Sky Color</p>
+        	<p space="10">will produce a sky color that incorporates both red and blue, but mostly red. You will mostly use multiple modifiers when dealing with colors and directions.</p>
+        	<p space="10">Be warned, while you can write a Descriptive Book with conflicting Pages (say "No Weather" and "Eternal Rain"), doing so will add instability to the Age and hasten its collapse.</p>
         </page>
         <page id="pageQuickGuide1">
             <p underline="true" bold="true" align="center" space="20">Quick Guide - Intro</p>
@@ -359,7 +387,7 @@
             <p align="center">No Weather</p>
             <p align="center">Overcast</p>
             <space height="20" />
-            <p underline="true" align="center">Lightning (1)</p>
+            <p underline="true" align="center">Lightning</p>
             <p color="#BC0A0A" align="center">Bright</p>
             <p align="center">Normal</p>
             <p align="center">Dark</p>
@@ -517,6 +545,8 @@
             <p space="10">Gigaherz wrote and maintains the Guidebook mod, without which this guide would have had to be coded from scratch.</p>
         </page>
         <page id="pageSpecialThanks2">
+        	<p bold="true">Nightenom</p>
+        	<p space="10">Nightenom helped me figure out how to give the player a book on first spawn.</p>
             <p bold="true">XCompWiz, CyanideX, &amp; HellFirePVP</p>
             <p space="10">These three created and maintain the amazing Mystcraft mod. I sincerely hope this guide complements their work and makes it more accessible to the average player.</p>
         </page>

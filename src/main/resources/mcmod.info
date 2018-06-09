@@ -5,10 +5,10 @@
   "description": "A guidebook for Mystcraft.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/TheFloydman/LTTA/",
   "updateUrl": "",
   "authorList": ["TheFloydman"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "Narotiza, Atrius, TrianguloY, Gigaherz, Nightenom, XCompWiz, CyanideX, and HellFirePVP.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

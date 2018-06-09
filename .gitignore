@@ -17,8 +17,19 @@ out
 build
 .gradle
 
+
 # other
-eclipse
 run
+gradle
+bin
 command_build.bat
 command_runClient.bat
+CREDITS-fml.txt
+forge-1.12.2-14.23.4.2705-changelog.txt
+LICENSE-new.txt
+LTTA_Client.launch
+LTTA_Server.launch
+MinecraftForge-Credits.txt
+Paulscode IBXM Library License.txt
+Paulscode SoundSystem CodecIBXM License.txt
+README.txt

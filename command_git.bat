@@ -1,1 +1,0 @@
-git config --global user.email "danielwellsfloyd@gmail.com"

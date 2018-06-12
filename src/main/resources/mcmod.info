@@ -5,7 +5,7 @@
   "description": "A guidebook for Mystcraft.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/TheFloydman/LTTA/",
+  "url": "https://minecraft.curseforge.com/projects/linking-through-the-ages",
   "updateUrl": "",
   "authorList": ["TheFloydman"],
   "credits": "Narotiza, Atrius, TrianguloY, Gigaherz, Nightenom, XCompWiz, CyanideX, and HellFirePVP.",

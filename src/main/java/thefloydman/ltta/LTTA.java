@@ -17,13 +17,15 @@ import net.minecraft.util.ResourceLocation;
 
 import gigaherz.guidebook.client.BookRegistryEvent;
 
-@Mod(modid = LTTA.MOD_ID, name = LTTA.NAME, version = LTTA.VERSION, dependencies = "after:gbook")
+import thefloydman.ltta.config.ModConfig;
+
+@Mod(modid = LTTA.MOD_ID, name = LTTA.NAME, version = LTTA.VERSION, dependencies = "after:gbook;after:mystcraft")
 @Mod.EventBusSubscriber
 public class LTTA {
 	
 	public static final String MOD_ID = "ltta";
     public static final String NAME = "Linking Through the Ages";
-    public static final String VERSION = "1.1.0";
+    public static final String VERSION = "1.2.0";
     
 	@Optional.Method(modid = "gbook")
     @SubscribeEvent
@@ -35,18 +37,18 @@ public class LTTA {
     @GameRegistry.ItemStackHolder(value = "gbook:guidebook", nbt = "{Book:\"" + LTTA.MOD_ID + ":xml/ltta.xml\"}")
     public static ItemStack gbookStack;
 
-    // Give one guidebook per player on first join.
+    // Give one guidebook per player on first join (unless disabled in config).
     @SubscribeEvent
     @Optional.Method(modid = "gbook")
-    public static void checkGbookGiven(EntityJoinWorldEvent event)
-    {
+    public static void checkGbookGiven(EntityJoinWorldEvent event) {
         final Entity entity = event.getEntity();
         final String bookPlayerTag = LTTA.MOD_ID + ":bookGiven";
 
-        if (entity instanceof EntityPlayer && !entity.getEntityWorld().isRemote && !entity.getTags().contains(bookPlayerTag))
-        {
+        if (entity instanceof EntityPlayer && !entity.getEntityWorld().isRemote && !entity.getTags().contains(bookPlayerTag) && ModConfig.giveBookOnFirstSpawn == true) {
             ItemHandlerHelper.giveItemToPlayer((EntityPlayer) entity, gbookStack.copy());
             entity.addTag(bookPlayerTag);
+        } else if (ModConfig.giveBookOnFirstSpawn == false) {
+        	entity.addTag(bookPlayerTag);
         }
     }
 
@@ -54,7 +56,6 @@ public class LTTA {
     public void preInit(FMLPreInitializationEvent event) {}
 
     @EventHandler
-    public void init(FMLInitializationEvent event) {    	
-    }    
+    public void init(FMLInitializationEvent event) {}    
     
 }

@@ -15,7 +15,7 @@
                 <space />
                 <stack item="minecraft:paper" />
                 <space />
-                <stack item="gbook:guidebook" />
+                <stack item="gbook:guidebook" tag="{Book:&quot;ltta:xml/ltta.xml&quot;}" />
             </small_recipe_centered>
 		</page>
 		<page id="pageTOC">
@@ -40,16 +40,24 @@
 		</page>
 		<page id="pageInk">
 		    <p underline="true" bold="true" align="center" space="20">Ink</p>
-		    <p space="30">Ink is the lifeblood of Writing. You will use it to both craft Linking Panels for use in Linking Books and Descriptive Books as well as to copy Pages so that you can use them over and over.</p>
+		    <p space="20">Ink is the lifeblood of Writing. You will use it to both craft Linking Panels for use in Linking Books and Descriptive Books as well as to copy Pages so that you can use them over and over. There are a couple of different ways to craft Ink Vials:</p>
 		    <small_recipe_centered>
                 <stack ore="dyeBlack" />
                 <stack ore="dyeBlack" />
-                <stack item="minecraft:potion" />
+                <stack item="minecraft:potion" tag="{Potion:&quot;minecraft:water&quot;}" />
                 <space />
                 <stack item="mystcraft:vial" />
             </small_recipe_centered>
-            <space height="30" />
-            <p>Because of its usefulness, you will want to stock up on as many Ink Vials as possible. If Ink Sacs are in short supply, you may be able to find other sources....</p>
+            <space height="10" />
+            <small_recipe_centered>
+                <stack ore="dyeBlack" />
+                <stack ore="dyeBlack" />
+                <stack item="minecraft:glass_bottle" />
+                <stack item="minecraft:water_bucket" />
+                <stack item="mystcraft:vial" />
+            </small_recipe_centered>
+            <space height="20" />
+            <p>Because of its usefulness, you will want to stock up on as many Ink Vials as possible.</p>
 		</page>
 		<page id="pageInkMixerRecipe">
 		    <p underline="true" bold="true" align="center" space="20">The Ink Mixer</p>
@@ -81,7 +89,7 @@
 		        <stack item="mystcraft:vial" />
 		        <stack item="minecraft:paper" />
 		        <stack item="minecraft:glass_bottle" />
-		        <stack item="mystcraft:page" />
+		        <stack item="mystcraft:page" tag="{linkpanel:&quot;&quot;}" />
 		    </filled_ink_mixer_centered>
 		</page>
 		<page id="pageLinkingBooks1">
@@ -90,7 +98,7 @@
 		    <p space="40">Linking Books do not establish Links to new Ages; rather, they allow you to travel between Ages you already have access to.</p>
 		    <small_recipe_centered>
 		        <stack item="minecraft:leather" />
-                <stack item="mystcraft:page" />
+                <stack item="mystcraft:page" tag="{linkpanel:&quot;&quot;}" />
                 <space />
                 <space />
                 <stack item="mystcraft:unlinkedbook" />
@@ -253,7 +261,7 @@
                 <stack ore="plankWood" />
                 <stack ore="plankWood" />
                 <stack ore="plankWood" />
-                <stack item="mystcraft:blocklectern" />
+                <stack item="mystcraft:blocklectern" count="2" />
             </large_recipe_centered>
         </page>
         <page id="pagePortals1">
@@ -344,7 +352,7 @@
             <p align="center">Strongholds</p>
             <p align="center">Mineshafts</p>
             <p align="center">Ravines</p>
-            <p align="center">{+<link ref="ch1:pageQuickGuide12"">strBlock</link>} Spheres</p>
+            <p align="center">{+<link ref="ch1:pageQuickGuide12">strBlock</link>} Spheres</p>
             <p align="center">Dungeons</p>
             <p align="center">{+<link ref="ch1:pageQuickGuide12">strBlock</link>} Spikes</p>
             <p color="#BC0A0A" align="center">Lacking Medium Features</p>
@@ -360,22 +368,6 @@
             <p align="center">{+<link ref="ch1:pageQuickGuide10">cryBlock</link>} Crystalline Formations</p>
             <p color="#BC0A0A" align="center">Lacking Small Features</p>
             <space height="20" />
-            <p underline="true" align="center">Moon</p>
-            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link> +<link ref="ch1:pageQuickGuide8">phase</link>} Normal</p>
-            <p align="center">Dark</p>
-            <space height="20" />
-            <p underline="true" align="center">Sun</p>
-            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link> +<link ref="ch1:pageQuickGuide8">phase</link>} Normal</p>
-            <p align="center">Dark</p>
-            <space height="20" />
-            <p underline="true" align="center">Stars</p>
-            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link>} Normal</p>
-            <p align="center">{+<link ref="ch1:pageQuickGuide9">color</link>/<link ref="ch1:pageQuickGuide9">gradient</link>} Ender Starfield</p>
-            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link>/<link ref="ch1:pageQuickGuide9">gra</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link>} Twinkling</p>
-            <p align="center">Dark</p>
-        </page>
-        <page id="pageQuickGuide5">
-        <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
             <p underline="true" align="center">Weather (1)</p>
             <p align="center">Eternal Snow</p>
             <p align="center">Eternal Rain</p>
@@ -386,6 +378,22 @@
             <p align="center">Slow Weather</p>
             <p align="center">No Weather</p>
             <p align="center">Overcast</p>
+        </page>
+        <page id="pageQuickGuide5">
+        <p underline="true" bold="true" align="center" space="20">Quick Guide - Features</p>
+        <p underline="true" align="center">Moon</p>
+            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link> +<link ref="ch1:pageQuickGuide8">phase</link>} Normal</p>
+            <p align="center">Dark</p>
+            <space height="20" />
+            <p underline="true" align="center">Sun</p>
+            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link> +<link ref="ch1:pageQuickGuide8">phase</link>} Normal</p>
+            <p align="center">Dark</p>
+            <space height="20" />
+        <p underline="true" align="center">Stars</p>
+            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link>} Normal</p>
+            <p align="center">{+<link ref="ch1:pageQuickGuide9">color</link>/<link ref="ch1:pageQuickGuide9">gradient</link>} Ender Starfield</p>
+            <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link>/<link ref="ch1:pageQuickGuide9">gra</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link>} Twinkling</p>
+            <p align="center">Dark</p>
             <space height="20" />
             <p underline="true" align="center">Lightning</p>
             <p color="#BC0A0A" align="center">Bright</p>

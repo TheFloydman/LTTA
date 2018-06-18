@@ -2,9 +2,9 @@
 
     <template id="small_recipe_centered" height="39">
         <image src="gbook:gui/recipe_backgrounds" x="50" w="78" h="39" tx="11" ty="61" />
-        <element index="0" x="51" y="2" />
+        <element index="0" x="52" y="2" />
         <element index="1" x="71" y="2" />
-        <element index="2" x="51" y="21" />
+        <element index="2" x="52" y="21" />
         <element index="3" x="71" y="21" />
         <element index="4" x="109" y="12" />
     </template>

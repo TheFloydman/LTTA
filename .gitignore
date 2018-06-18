@@ -15,12 +15,10 @@ out
 
 # gradle
 build
-.gradle
 
 
 # other
 run
-gradle
 bin
 command_build.bat
 command_runClient.bat

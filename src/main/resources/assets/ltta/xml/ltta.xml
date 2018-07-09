@@ -294,14 +294,14 @@
         	<p space="20">The grammar of the Art is very easy to understand at the top level. It follows a simple formula:</p>
         	<p space="20" align="center" italics="true">modifier + feature</p>
         	<p space="20">This means that when arranging Pages, you must always place the Page you want modified after the Page (or Pages) that modify it. For example:</p>
-        	<p space="20" align="center" italics="true">Page: Red Color + Page: Sky Color</p>
+        	<p space="20" align="center" italics="true">Red + Sky Color</p>
         	<p space="10">will generate a red sky.</p>
         	<p>There are several feature Pages that require more than one modifier and some that require none. These are covered in the Quick Guides.</p>
         </page>
         <page id="pageGrammar2">
-        	<p space="20">Things become more complicated when you add several modifier Pages before a feature Page. The first modifier is always given the greatest weight, but successive modifiers also have an effect. For example,</p>
-        	<p space="20" align="center" italics="true">Page: Red Color + Page: Blue Color + Page: Sky Color</p>
-        	<p space="10">will produce a sky color that incorporates both red and blue, but mostly red. You will mostly use multiple modifiers when dealing with colors and directions.</p>
+        	<p space="20">Things become more complicated when you add several modifier Pages before a feature Page. For modifiers that can be combined, the first modifier is averaged with the one after it, and that combined modifier is averaged with the next modifier, and so on. For example,</p>
+        	<p space="20" align="center" italics="true">Red + Blue + Green + Sky Color</p>
+        	<p space="10">will produce a sky color that is an average of purple and green. You will mostly use combined modifiers when dealing with colors and directions.</p>
         	<p space="10">Be warned, while you can write a Descriptive Book with conflicting Pages (say "No Weather" and "Eternal Rain"), doing so will add instability to the Age and hasten its collapse.</p>
         </page>
         <page id="pageQuickGuide1">
@@ -508,14 +508,14 @@
             <p align="center">Lava</p>
             <p align="center">Water</p>
             <p align="center">No Seas</p>
-            <p align="center">Black Ink</p>
+            <p color="#BC0A0A" align="center">Black Ink</p>
             <p align="center">Ice</p>
             <p align="center">Compressed Ice</p>
             <space height="20" />
             <p underline="true" align="center">Fluid (fluBlock)</p>
             <p align="center">Lava</p>
             <p align="center">Water</p>
-            <p align="center">Black Ink</p>
+            <p color="#BC0A0A" align="center">Black Ink</p>
             <p align="center">Ice</p>
             <p align="center">Compressed Ice</p>
         </page>
@@ -553,6 +553,8 @@
             <p space="10">Gigaherz wrote and maintains the Guidebook mod, without which this guide would have had to be coded from scratch.</p>
         </page>
         <page id="pageSpecialThanks2">
+        	<p bold="true">Keybounce</p>
+        	<p space="10">Keybounce helped explain how multiple modifiers are combined.</p>
         	<p bold="true">Nightenom</p>
         	<p space="10">Nightenom helped me figure out how to give the player a book on first spawn.</p>
         	<p bold="true">Choonster</p>

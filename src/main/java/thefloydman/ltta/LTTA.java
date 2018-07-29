@@ -3,6 +3,7 @@ package thefloydman.ltta;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -18,6 +19,7 @@ import net.minecraft.util.ResourceLocation;
 import gigaherz.guidebook.client.BookRegistryEvent;
 
 import thefloydman.ltta.config.ModConfig;
+import thefloydman.ltta.proxy.CommonProxy;
 
 @Mod(modid = LTTA.MOD_ID, name = LTTA.NAME, version = LTTA.VERSION, dependencies = "after:gbook;after:mystcraft")
 @Mod.EventBusSubscriber
@@ -26,7 +28,14 @@ public class LTTA {
 	public static final String MOD_ID = "ltta";
     public static final String NAME = "Linking Through the Ages";
     public static final String VERSION = "1.2.2";
-    
+
+    @SidedProxy(
+        clientSide = "thefloydman.ltta.proxy.ClientProxy",
+        serverSide = "thefloydman.ltta.proxy.CommonProxy"
+    )
+    public static CommonProxy proxy;
+
+
 	@Optional.Method(modid = "gbook")
     @SubscribeEvent
     public static void registerBook (BookRegistryEvent event) {
@@ -56,6 +65,8 @@ public class LTTA {
     public void preInit(FMLPreInitializationEvent event) {}
 
     @EventHandler
-    public void init(FMLInitializationEvent event) {}    
+    public void init(FMLInitializationEvent event) {
+        proxy.init(event);
+    }
     
 }

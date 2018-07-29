@@ -12,6 +12,10 @@ repositories {
     maven {
         url "http://dogforce-games.com/maven"
     }
+    maven {
+        name "xcompwiz"
+        url "http://maven.xcompwiz.com"
+    }
 }
 
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -41,7 +45,8 @@ minecraft {
 }
 
 dependencies {
-    deobfCompile "gigaherz.guidebook:Guidebook-1.12.2:2.6.0"
+    compileOnly "gigaherz.guidebook:Guidebook-1.12.2:2.6.5"
+    compileOnly "com.xcompwiz.mystcraft:mystcraft:0.13.6.00"
 }
 
 processResources {

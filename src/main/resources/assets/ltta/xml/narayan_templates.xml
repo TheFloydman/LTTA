@@ -1,0 +1,1058 @@
+<library>
+    
+    <!-- Big circle elements starting at the top and going clockwise. (Lines 3-19) -->
+    
+    <template id="bc_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="256" ty="0" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="bc_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="320" ty="0" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="bc_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="384" ty="0" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="bc_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="448" ty="0" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <!-- Little circle elements starting at the top and going clockwise. (Lines 21-165) -->
+    
+    <template id="lc-tl_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="256" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tl_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="320" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tl_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="384" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tl_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="448" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tr_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="0" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tr_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="64" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tr_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="128" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-tr_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="192" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-br_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="256" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-br_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="320" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-br_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="384" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-br_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="448" ty="64" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-bl_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="0" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-bl_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="64" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-bl_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="128" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-bl_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="192" ty="128" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-t_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="0" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-t_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="64" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-t_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="128" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-t_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="192" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-r_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="256" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-r_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="320" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-r_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="384" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-r_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="448" ty="192" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-b_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="0" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-b_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="64" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-b_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="128" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-b_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="192" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-l_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="256" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-l_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="320" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-l_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="384" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-l_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="448" ty="256" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-c_0">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="0" ty="320" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-c_1">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="64" ty="320" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-c_2">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="128" ty="320" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <template id="lc-c_3">
+    	<image src="ltta:symbolcomponents" tw="512" th="512" tx="192" ty="320" w="64" h="64" x="0" y="0" />
+    </template>
+    
+    <!-- Narayan words. (Lines 167-1017) -->
+    
+    <template id="word_blank" height="64" width="64">
+    	<bc_0 />
+    	<bc_1 />
+    	<bc_2 />
+    	<bc_3 />
+    </template>
+    
+    <template id="word_basic" height="64" width="64">
+    	<bc_0 />
+    	<bc_1 />
+    	<bc_2 />
+    	<bc_3 />
+    	<lc-tl_0 />
+    	<lc-tl_1 />
+    	<lc-tl_2 />
+    	<lc-tl_3 />
+    	<lc-tr_0 />
+    	<lc-tr_1 />
+    	<lc-tr_2 />
+    	<lc-tr_3 />
+    	<lc-br_0 />
+    	<lc-br_1 />
+    	<lc-br_2 />
+    	<lc-br_3 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    	<lc-bl_2 />
+    	<lc-bl_3 />
+    </template>
+    
+    <template id="word_extra" height="64" width="64">
+    	<lc-t_0 />
+    	<lc-t_1 />
+    	<lc-t_2 />
+    	<lc-t_3 />
+    	<lc-r_0 />
+    	<lc-r_1 />
+    	<lc-r_2 />
+    	<lc-r_3 />
+    	<lc-b_0 />
+    	<lc-b_1 />
+    	<lc-b_2 />
+    	<lc-b_3 />
+    	<lc-l_0 />
+    	<lc-l_1 />
+    	<lc-l_2 />
+    	<lc-l_3 />
+    	<lc-c_0 />
+    	<lc-c_1 />
+    	<lc-c_2 />
+    	<lc-c_3 />
+    </template>
+    
+    <template id="word_full" height="64" width="64">
+    	<bc_0 />
+    	<bc_1 />
+    	<bc_2 />
+    	<bc_3 />
+    	<lc-tl_0 />
+    	<lc-tl_1 />
+    	<lc-tl_2 />
+    	<lc-tl_3 />
+    	<lc-tr_0 />
+    	<lc-tr_1 />
+    	<lc-tr_2 />
+    	<lc-tr_3 />
+    	<lc-br_0 />
+    	<lc-br_1 />
+    	<lc-br_2 />
+    	<lc-br_3 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    	<lc-bl_2 />
+    	<lc-bl_3 />
+    	<lc-t_0 />
+    	<lc-t_1 />
+    	<lc-t_2 />
+    	<lc-t_3 />
+    	<lc-r_0 />
+    	<lc-r_1 />
+    	<lc-r_2 />
+    	<lc-r_3 />
+    	<lc-b_0 />
+    	<lc-b_1 />
+    	<lc-b_2 />
+    	<lc-b_3 />
+    	<lc-l_0 />
+    	<lc-l_1 />
+    	<lc-l_2 />
+    	<lc-l_3 />
+    	<lc-c_0 />
+    	<lc-c_1 />
+    	<lc-c_2 />
+    	<lc-c_3 />
+    </template>
+    
+    <template id="word_test" height="64" width="64">
+	    <bc_0 />
+    	<bc_1 />
+    	<bc_2 />
+    	<bc_3 />
+    	<lc-tl_0 />
+    	<lc-tl_1 />
+    	<lc-tl_2 />
+    	<lc-tl_3 />
+    	<lc-tr_0 />
+    	<lc-tr_1 />
+    	<lc-tr_2 />
+    	<lc-tr_3 />
+    	<lc-br_0 />
+    	<lc-br_1 />
+    	<lc-br_2 />
+    	<lc-br_3 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    	<lc-bl_2 />
+    	<lc-bl_3 />
+    </template>
+    
+    <template id="word_nature" height="64" width="64">
+    	<bc_1 />
+    	<bc_2 />
+    	<lc-tl_2 />
+    	<lc-tr_0 />
+    	<lc-tr_2 />
+    	<lc-tr_3 />
+    	<lc-br_0 />
+    	<lc-br_3 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    </template>
+    
+    <template id="word_love" height="64" width="64">
+	    <bc_0 />
+    	<bc_2 />
+    	<lc-tl_0 />
+    	<lc-tr_1 />
+    	<lc-tr_2 />
+    	<lc-tr_3 />
+    	<lc-br_2 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    	<lc-bl_3 />
+    </template>
+    
+    <template id="word_force" height="64" width="64">
+	    <bc_0 />
+    	<bc_1 />
+    	<lc-tr_0 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    	<lc-bl_3 />
+    </template>
+    
+    <template id="word_transform" height="64" width="64">
+	    <bc_0 />
+    	<bc_1 />
+    	<bc_2 />
+    	<lc-tl_0 />
+    	<lc-tl_1 />
+    	<lc-tr_0 />
+    	<lc-tr_3 />
+    	<lc-br_2 />
+    	<lc-bl_2 />
+    </template>
+    
+    <template id="word_change" height="64" width="64">
+	    <bc_0 />
+    	<bc_3 />
+    	<lc-tl_1 />
+    	<lc-tr_2 />
+    	<lc-tr_3 />
+    	<lc-br_0 />
+    	<lc-bl_0 />
+    	<lc-bl_1 />
+    	<lc-bl_2 />
+    	<lc-bl_3 />
+    </template>
+    
+    <template id="word_machine" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_0 />
+	    <lc-br_2 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_future" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <lc-tl_0 />
+	    <lc-tr_0 />
+	    <lc-br_0 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_cycle" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_3 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_merge" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_dependence" height="64" width="64">
+	    <bc_0 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_void" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_energy" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-br_1 />
+	    <lc-bl_0 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_mutual" height="64" width="64">
+	    <bc_3 />
+	    <lc-tl_1 />
+	    <lc-tr_0 />
+	    <lc-tr_3 />
+	    <lc-br_3 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_contradict" height="64" width="64">
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+	</template>
+	
+	<template id="word_power" height="64" width="64">
+	    <bc_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+    </template>
+    
+    <template id="word_possibility" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_2 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_convey" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_encourage" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_wisdom" height="64" width="64">
+	    <bc_1 />
+	    <bc_3 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_dynamic" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_intelligence" height="64" width="64">
+	    <bc_0 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_1 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_3 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_entropy" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_society" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_0 />
+	    <lc-tr_3 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_chaos" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_growth" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_3 />
+    </template>
+    
+    <template id="word_civilization" height="64" width="64">
+	    <bc_0 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-tr_3 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_spur" height="64" width="64">
+	    <bc_1 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_0 />
+    </template>
+    
+    <template id="word_infinite" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_motion" height="64" width="64">
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_1 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_harmony" height="64" width="64">
+	    <bc_1 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_resurrect" height="64" width="64">
+	    <bc_1 />
+	    <bc_3 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_weave" height="64" width="64">
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_2 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+    </template>
+    
+    <template id="word_rebirth" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_2 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_control" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_sacrifice" height="64" width="64">
+	    <bc_1 />
+	    <bc_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_time" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_constraint" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_3 />
+	    <lc-br_1 />
+    </template>
+    
+    <template id="word_inhibit" height="64" width="64">
+	    <lc-tl_0 />
+	    <lc-tl_3 />
+	    <lc-tr_2 />
+	    <lc-tr_3 />
+	    <lc-br_0 />
+	    <lc-br_3 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_creativity" height="64" width="64">
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_stimulate" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_3 />
+    </template>
+    
+    <template id="word_momentum" height="64" width="64">
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tl_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_balance" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_resilience" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_3 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_flow" height="64" width="64">
+	    <bc_0 />
+	    <bc_3 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_believe" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+    </template>
+    
+    <template id="word_tradition" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-tl_0 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-br_2 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_nurture" height="64" width="64">
+	    <bc_0 />
+	    <bc_3 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tr_0 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_3 />
+	    <lc-bl_3 />    
+    </template>
+    
+    <template id="word_honor" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_form" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-tr_3 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_0 />
+    </template>
+    
+    <template id="word_question" height="64" width="64">
+	    <bc_0 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_3 />
+	    <lc-br_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_static" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_3 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_exist" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-br_1 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_elevate" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_survival" height="64" width="64">
+	    <bc_1 />
+	    <bc_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_2 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_system" height="64" width="64">
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tr_2 />
+	    <lc-br_0 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_0 />
+    </template>
+    
+    <template id="word_remember" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-br_1 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_sustain" height="64" width="64">
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_3 />
+	    <lc-bl_0 />
+	    <lc-bl_1 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_ethereal" height="64" width="64">
+	    <bc_0 />
+	    <bc_2 />
+	    <lc-tl_1 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_0 />
+	    <lc-bl_2 />
+    </template>
+    
+    <template id="word_discover" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <lc-tl_2 />
+	    <lc-tr_0 />
+	    <lc-tr_2 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-br_2 />
+	    <lc-bl_0 />
+    </template>
+    
+    <template id="word_explore" height="64" width="64">
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+    </template>
+    
+    <template id="word_celestial" height="64" width="64">
+	    <bc_2 />
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tl_2 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-br_2 />
+	    <lc-bl_2 />
+	    <lc-t_0 />
+    </template>
+    
+    <template id="word_terrain" height="64" width="64">
+	    <bc_2 />
+	    <lc-tr_2 />
+	    <lc-br_0 />
+	    <lc-br_1 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+	    <lc-t_0 />
+	    <lc-t_1 />
+	    <lc-t_3 />
+    </template>
+    
+    <template id="word_image" height="64" width="64">
+	    <bc_3 />
+	    <lc-tl_1 />
+	    <lc-tl_3 />
+	    <lc-tr_0 />
+	    <lc-tr_1 />
+	    <lc-tr_2 />
+	    <lc-tr_3 />
+	    <lc-bl_3 />
+    </template>
+    
+    <template id="word_chain" height="64" width="64">
+	    <bc_0 />
+	    <bc_1 />
+	    <bc_2 />
+	    <bc_3 />
+	    <lc-t_0 />
+	    <lc-t_1 />
+	    <lc-t_3 />
+	    <lc-c_0 />
+	    <lc-c_1 />
+	    <lc-c_2 />
+	    <lc-c_3 />
+	    <lc-b_1 />
+	    <lc-b_2 />
+	    <lc-b_3 />
+    </template>
+    
+    <template id="word_order" height="64" width="64">
+	    <lc-tl_0 />
+	    <lc-tl_1 />
+	    <lc-tr_3 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+	    <lc-bl_1 />
+    </template>
+    
+    <template id="word_floydman" height="64" width="64">
+	    <bc_0 />
+	    <bc_3 />
+	    <lc-bl_0 />
+	    <lc-bl_3 />
+	    <lc-br_2 />
+	    <lc-br_3 />
+    </template>
+
+</library>

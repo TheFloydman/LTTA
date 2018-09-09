@@ -14,11 +14,18 @@ repositories {
     }
 }
 
+repositories {
+    maven {
+		name "xcompwiz"
+		url "http://maven.xcompwiz.com"
+	}
+}
+
 apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
-version = "1.2.2"
+version = "1.3.0"
 group = "thefloydman.ltta" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ltta-1.12.2"
 
@@ -41,7 +48,9 @@ minecraft {
 }
 
 dependencies {
-    deobfCompile "gigaherz.guidebook:Guidebook-1.12.2:2.6.0"
+    deobfCompile "gigaherz.commons:gigaherz.commons-1.12.1:0.6.4"
+    deobfCompile "gigaherz.guidebook:Guidebook-1.12.2:2.8.3"
+    compile "com.xcompwiz.mystcraft:mystcraft:0.13.6.00:dev"
 }
 
 processResources {

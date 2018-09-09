@@ -290,19 +290,20 @@
         	<p>WARNING: Portals do not spawn other Portals, so you will need a Portal or a Book in the destination Age to return.</p>
         </page>
         <page id="pageGrammar1">
-        	<p underline="true" bold="true" align="center" space="20">Grammar</p>
+        	<p underline="true" bold="true" align="center" space="20">Grammar - The Basics</p>
         	<p space="20">The grammar of the Art is very easy to understand at the top level. It follows a simple formula:</p>
         	<p space="20" align="center" italics="true">modifier + feature</p>
         	<p space="20">This means that when arranging Pages, you must always place the Page you want modified after the Page (or Pages) that modify it. For example:</p>
         	<p space="20" align="center" italics="true">Red + Sky Color</p>
-        	<p space="10">will generate a red sky.</p>
-        	<p>There are several feature Pages that require more than one modifier and some that require none. These are covered in the Quick Guides.</p>
+        	<p space="20">will generate a red sky.</p>
+        	<p>There are several feature Pages that require more than one modifier and some that require none. These are noted in the Quick Guides.</p>
         </page>
         <page id="pageGrammar2">
-        	<p space="20">Things become more complicated when you add several modifier Pages before a feature Page. For modifiers that can be combined, the first modifier is averaged with the one after it, and that combined modifier is averaged with the next modifier, and so on. For example,</p>
-        	<p space="20" align="center" italics="true">Red + Blue + Green + Sky Color</p>
-        	<p space="10">will produce a sky color that is an average of purple and green. You will mostly use combined modifiers when dealing with colors and directions.</p>
-        	<p space="10">Be warned, while you can write a Descriptive Book with conflicting Pages (say "No Weather" and "Eternal Rain"), doing so will add instability to the Age and hasten its collapse.</p>
+        <p underline="true" bold="true" align="center" space="20">Grammar - Combined Modifiers</p>
+        	<p space="20">Some modifiers can be combined. For colors, lengths, phases, and directions, two modifiers are averaged to create a custom modifier. If more than 2 modifiers are provided, they are averaged from left-to-right. For example, if your modifiers are organized as</p>
+        	<p space="20" align="center" italics="true">A + B + C</p>
+        	<p space="20">A and B will be averaged to make a new modifier (AB), and AB will be averaged with C to make a new modifier (ABC). This process will continue for as many modifiers are you provide.</p>
+        	<p space="20">In cases where there are two possible averages, phases will cycle forward in time from the first modifier, and directions will cycle clockwise from the first modifier.</p>
         </page>
         <page id="pageQuickGuide1">
             <p underline="true" bold="true" align="center" space="20">Quick Guide - Intro</p>
@@ -395,7 +396,7 @@
             <p align="center">{+<link ref="ch1:pageQuickGuide9">col</link>/<link ref="ch1:pageQuickGuide9">gra</link> +<link ref="ch1:pageQuickGuide8">length</link> +<link ref="ch1:pageQuickGuide8">dir</link>} Twinkling</p>
             <p align="center">Dark</p>
             <space height="20" />
-            <p underline="true" align="center">Lightning</p>
+            <p underline="true" align="center">Lighting</p>
             <p color="#BC0A0A" align="center">Bright</p>
             <p align="center">Normal</p>
             <p align="center">Dark</p>
@@ -480,63 +481,68 @@
         </page>
         <page id="pageQuickGuide10">
             <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
-            <p underline="true" align="center">Biome</p>
-            <p align="center">All Vanilla Biomes</p>
-            <p align="center">Many Mod Biomes</p>
-            <space height="20" />
             <p underline="true" align="center">Terrain (terBlock)</p>
-            <p align="center">Compressed Ice</p>
+            <p align="center">Packed Ice</p>
             <p align="center">Obsidian</p>
             <p align="center">Dirt</p>
             <p align="center">Sandstone</p>
-            <p align="center">Stone</p>
+            <p align="center">Any Stone</p>
+            <p align="center">Any Polished Stone</p>
             <p align="center">Netherrack</p>
             <p align="center">End Stone</p>
             <space height="20" />
             <p underline="true" align="center">Crystalline (cryBlock)</p>
             <p align="center">Ice</p>
-            <p align="center">Compressed Ice</p>
+            <p align="center">Packed Ice</p>
             <p align="center">Snow</p>
             <p align="center">Glass</p>
             <p align="center">Crystal</p>
             <p color="#BC0A0A" align="center">Nether Quartz Ore</p>
             <p align="center">Glowstone</p>
+            <p align="center">Obsidian</p>
         </page>
         <page id="pageQuickGuide11">
             <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
+            <p underline="true" align="center">Biome</p>
+            <p align="center">All Vanilla Biomes</p>
+            <p align="center">All Mod Biomes</p>
+            <space height="20" />
             <p underline="true" align="center">Sea (seaBlock)</p>
             <p align="center">Lava</p>
             <p align="center">Water</p>
+            <p align="center">Ice</p>
+            <p align="center">Packed Ice</p>
             <p align="center">No Seas</p>
             <p color="#BC0A0A" align="center">Black Ink</p>
-            <p align="center">Ice</p>
-            <p align="center">Compressed Ice</p>
+            <p align="center">All Mod Fluids</p>
             <space height="20" />
             <p underline="true" align="center">Fluid (fluBlock)</p>
             <p align="center">Lava</p>
             <p align="center">Water</p>
             <p color="#BC0A0A" align="center">Black Ink</p>
             <p align="center">Ice</p>
-            <p align="center">Compressed Ice</p>
+            <p align="center">Packed Ice</p>
+            <p align="center">All Mod Fluids</p>
         </page>
         <page id="pageQuickGuide12">
             <p underline="true" bold="true" align="center" space="20">Quick Guide - Modifiers</p>
             <p underline="true" align="center">Structure (strBlock)</p>
             <p align="center">Ice</p>
-            <p align="center">Compressed Ice</p>
+            <p align="center">Packed Ice</p>
             <p align="center">Obsidian</p>
             <p align="center">Dirt</p>
             <p align="center">Sandstone</p>
-            <p align="center">Stone</p>
+            <p align="center">Any Stone</p>
+            <p align="center">Any Polished Stone</p>
             <p align="center">Netherrack</p>
             <p align="center">End Stone</p>
-            <p align="center">Any Wood</p>
             <p align="center">Snow</p>
             <p align="center">Glass</p>
             <p align="center">Crystal</p>
-            <p color="#BC0A0A" align="center">Any Ore</p>
             <p align="center">Nether Brick</p>
             <p align="center">Glowstone</p>
+            <p color="#BC0A0A" align="center">Any Ore</p>
+            <p align="center">Any Wood</p>
             <space height="20" />
             <p>Any mods you have installed may add modifiers, especially for biomes and blocks.</p>
         </page>

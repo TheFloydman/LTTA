@@ -1,0 +1,306 @@
+<book title="Narayani for Dummies" cover="ltta:narayan_cover" fontSize="0.6">
+
+	<include ref="ltta:xml/narayan_templates.xml" />
+
+	<chapter id="ch1">
+		<page id="pageIntro">
+			<p underline="true" bold="true" align="center" space="20">Introduction</p>
+			<p space="10">In my study of the Art, I have encountered countless Pages, each with a unique combination of Symbols. I have copied and used these Pages in my Descriptive Books to Link to amazing new Ages, but their true meanings have long eluded me.</p>
+			<p space="10">In ancient D'ni, the D'ni people would have written their Descriptive and Linking Books in their special language, but the Pages I have collected are not written like that.</p>
+			<p>After many hours of study, I have discovered that the Pages are written in Narayani, the language of the people of the Age of Narayan. I will share with you what I have learned about Pages and the Narayani written on them.</p>
+		</page>
+		<page id="pageTOC">
+		    <p underline="true" bold="true" align="center" space="20">Table of Contents</p>
+		    <p bold="true" align="center" space="10">Narayani Basics</p>
+		    <link ref="ch1:pageWord1" align="center">Word Structure</link>
+		    <link ref="ch1:pagePoem1" align="center">Poem Structure</link>
+		    <link ref="ch1:pageArt1" align="center">Narayani &amp; the Art</link>
+		    <link ref="ch1:pageClose1" align="center">Closing Thoughts</link>
+		    <space height="20" />
+		    <p bold="true" align="center" space="10">Dictionary</p>
+            <link ref="ch1:pageDict1" align="center">B - Ch</link>
+            <link ref="ch1:pageDict3" align="center">Ci - Cr</link>
+            <link ref="ch1:pageDict5" align="center">Cy - Enc</link>
+            <link ref="ch1:pageDict7" align="center">Ene - Fl</link>
+            <link ref="ch1:pageDict9" align="center">Fo - H</link>
+            <link ref="ch1:pageDict11" align="center">Im - Ma</link>
+            <link ref="ch1:pageDict13" align="center">Me - N</link>
+            <link ref="ch1:pageDict15" align="center">O - Rem</link>
+            <link ref="ch1:pageDict17" align="center">Res - Sta</link>
+            <link ref="ch1:pageDict19" align="center">Sti - Ti</link>
+            <link ref="ch1:pageDict21" align="center">Tr - W</link>
+		</page>
+		<page id="pageWord1">
+			<p underline="true" bold="true" align="center" space="20">Word Structure</p>
+			<p space="10">All Narayani words are written as a combination of one large circle filled with smaller overlapping circles. Most words are made with these circles:</p>
+			<word_basic x="64" />
+			<space height="10" />
+			<p space="10">There are a few words, however, that also include pieces of these circles:</p>
+			<word_extra x="64" />
+		</page>
+		<page id="pageWord2">
+			<p space="10">Every circle is divided into quarters: top, bottom, left, and right.</p>
+			<bc_0 x="17" />
+			<bc_2 x="17" y="-64" />
+			<bc_1 x="91" y="-64" />
+			<bc_3 x="91" y="-64" />
+			<space height="10" />
+			<p space="10">These are the smallest divisible parts of each circle, meaning you will never see a fraction of one of these arcs. Here, for example, is the word "change":</p>
+			<word_change x="59" />
+			<space height="10" />
+			<p>Notice that there are several incomplete circles, but no incomplete arcs.</p>
+		</page>
+		<page id="pagePoem1">
+			<p underline="true" bold="true" align="center" space="20">Poem Structure</p>
+			<p space="10">There is no poetry more simplistic and beautiful than Narayani poetry. Not only does it sound beautiful, it looks beautiful, too! Narayani poems are made up of four words placed around a center. They are read top-first and continue clockwise.</p>
+			<word_blank x="64" />
+			<word_blank x="21" y="-21" />
+			<word_blank x="107" y="-64" />
+			<word_blank x="64" y="-21" />
+			<p x="47" y="-61">1</p>
+			<p x="68" y="-14">2</p>
+			<p x="25" y="-13">4</p>
+			<p x="47" y="11">3</p>
+		</page>
+		<page id="pagePoem2">
+			<word_chaos x="59" />
+			<word_growth x="16" y="-21" />
+			<word_intelligence x="102" y="-64" />
+			<word_creativity x="59" y="-21" />
+			<space height="10" />
+			<p space="10">Here is a poem I wrote to convey my own experience learning the Art: Chaos. Growth. Intelligence. Creativity.</p>
+			<p>Notice the order in which the words are both written and read. Maybe you'll feel inspired to write some poetry of your own!</p>
+		</page>
+		<page id="pageArt1">
+			<p underline="true" bold="true" align="center" space="20">Narayani &amp; the Art</p>
+			<p space="10">Narayani poetry is beautiful unto itself, but you have probably noticed it bears a resemblance to the writing on the Pages used in the Art. They are, in fact, visually identical.</p>
+			<p space="10">Here is a Narayani poem I found written on a Page:</p>
+			<word_terrain x="64" />
+			<word_flow x="21" y="-21" />
+			<word_form x="107" y="-64" />
+			<word_tradition x="64" y="-21" />
+			<space height="10" />
+		</page>
+		<page id="pageArt2">
+			<p space="10">Notice the words written there: Terrain. Form. Tradition. Flow. It was a Page describing a Standard World. Compare it to this Page describing a Cave World:</p>
+			<word_terrain x="59" />
+			<word_entropy x="16" y="-21" />
+			<word_form x="102" y="-64" />
+			<word_constraint x="59" y="-21" />
+			<space height="10" />
+			<p>Terrain. Form. Constraint. Entropy. While the meanings of each poem are a little vague, you can see how the words chosen influence the resulting Page.</p>
+		</page>
+		<page id="pageArt3">
+			<p space="10">Probably the most important quartet I can share with you is the lesson for which the Age of Narayan was originally written:</p>
+			<word_balance x="59" />
+			<word_system x="16" y="-21" />
+			<word_stimulate x="102" y="-64" />
+			<word_civilization x="59" y="-21" />
+			<space height="10" />
+			<p space="10">Balance. System. Stimulate. Civilization.</p>
+			<p>Balanced systems stimulate civilization. Remember that as you write and explore your own Ages.</p>
+		</page>
+		<page id="pageClose1">
+			<p underline="true" bold="true" align="center" space="20">Closing Thoughts</p>
+			<p space="10">And that is all I have to pass on for now. If I have learned anything about the Narayani language, it is that is is simple yet elegant. Out of its simplicity comes an unparalleled beauty.</p>
+			<p space="40">The same will be true of the Ages you write. Wield the simplicity of the Symbols you find to make something not only unique, but beautiful.</p>
+			<word_floydman x="59" />
+		</page>
+		<page id="pageDict1">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (B-Ce)</p>
+			<p x="41" y="20" scale="1.5">Balance</p>
+			<word_balance x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Believe</p>
+			<word_believe x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Celestial</p>
+			<word_celestial x="0" y="-20"/>
+		</page>
+		<page id="pageDict2">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Ch)</p>
+			<p x="41" y="20" scale="1.5">Chain</p>
+			<word_chain x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Change</p>
+			<word_change x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Chaos</p>
+			<word_chaos x="0" y="-20"/>
+		</page>
+		<page id="pageDict3">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Ci-Contra)</p>
+			<p x="41" y="20" scale="1.5">Civilization</p>
+			<word_civilization x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Constraint</p>
+			<word_constraint x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Contradict</p>
+			<word_contradict x="0" y="-20"/>
+		</page>
+		<page id="pageDict4">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Contro-Cr)</p>
+			<p x="41" y="20" scale="1.5">Control</p>
+			<word_control x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Convey</p>
+			<word_convey x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Creativity</p>
+			<word_creativity x="0" y="-20"/>
+		</page>
+		<page id="pageDict5">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Cy-Di)</p>
+			<p x="41" y="20" scale="1.5">Cycle</p>
+			<word_cycle x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Dependence</p>
+			<word_dependence x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Discover</p>
+			<word_discover x="0" y="-20"/>
+		</page>
+		<page id="pageDict6">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Dy-Enc)</p>
+			<p x="41" y="20" scale="1.5">Dynamic</p>
+			<word_dynamic x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Elevate</p>
+			<word_elevate x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Encourage</p>
+			<word_encourage x="0" y="-20"/>
+		</page>
+		<page id="pageDict7">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Ene-Et)</p>
+			<p x="41" y="20" scale="1.5">Energy</p>
+			<word_energy x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Entropy</p>
+			<word_entropy x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Ethereal</p>
+			<word_ethereal x="0" y="-20"/>
+		</page>
+		<page id="pageDict8">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Ex-Fl)</p>
+			<p x="41" y="20" scale="1.5">Exist</p>
+			<word_exist x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Explore</p>
+			<word_explore x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Flow</p>
+			<word_flow x="0" y="-20"/>
+		</page>
+		<page id="pageDict9">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Fo-Fu)</p>
+			<p x="41" y="20" scale="1.5">Force</p>
+			<word_force x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Form</p>
+			<word_form x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Future</p>
+			<word_future x="0" y="-20"/>
+		</page>
+		<page id="pageDict10">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (G-H)</p>
+			<p x="41" y="20" scale="1.5">Growth</p>
+			<word_growth x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Harmony</p>
+			<word_harmony x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Honor</p>
+			<word_honor x="0" y="-20"/>
+		</page>
+		<page id="pageDict11">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Im-Inh)</p>
+			<p x="41" y="20" scale="1.5">Image</p>
+			<word_image x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Infinite</p>
+			<word_infinite x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Inhibit</p>
+			<word_inhibit x="0" y="-20"/>
+		</page>
+		<page id="pageDict12">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Int-Ma)</p>
+			<p x="41" y="20" scale="1.5">Intelligence</p>
+			<word_intelligence x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Love</p>
+			<word_love x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Machine</p>
+			<word_machine x="0" y="-20"/>
+		</page>
+		<page id="pageDict13">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Me-Mo)</p>
+			<p x="41" y="20" scale="1.5">Merge</p>
+			<word_merge x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Momentum</p>
+			<word_momentum x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Motion</p>
+			<word_motion x="0" y="-20"/>
+		</page>
+		<page id="pageDict14">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Mu-N)</p>
+			<p x="41" y="20" scale="1.5">Mutual</p>
+			<word_mutual x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Nature</p>
+			<word_nature x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Nurture</p>
+			<word_nurture x="0" y="-20"/>
+		</page>
+		<page id="pageDict15">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (O-P)</p>
+			<p x="41" y="20" scale="1.5">Order</p>
+			<word_order x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Possibility</p>
+			<word_possibility x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Power</p>
+			<word_power x="0" y="-20"/>
+		</page>
+		<page id="pageDict16">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Q-Rem)</p>
+			<p x="41" y="20" scale="1.5">Question</p>
+			<word_question x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Rebirth</p>
+			<word_rebirth x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Remember</p>
+			<word_remember x="0" y="-20"/>
+		</page>
+		<page id="pageDict17">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Res-Sa)</p>
+			<p x="41" y="20" scale="1.5">Resilience</p>
+			<word_resilience x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Resurrect</p>
+			<word_resurrect x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Sacrifice</p>
+			<word_sacrifice x="0" y="-20"/>
+		</page>
+		<page id="pageDict18">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (So-Sta)</p>
+			<p x="41" y="20" scale="1.5">Society</p>
+			<word_society x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Spur</p>
+			<word_spur x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Static</p>
+			<word_static x="0" y="-20"/>
+		</page>
+		<page id="pageDict19">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Sti-Su)</p>
+			<p x="41" y="20" scale="1.5">Stimulate</p>
+			<word_stimulate x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Survival</p>
+			<word_survival x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Sustain</p>
+			<word_sustain x="0" y="-20"/>
+		</page>
+		<page id="pageDict20">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Sy-Ti)</p>
+			<p x="41" y="20" scale="1.5">System</p>
+			<word_system x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Terrain</p>
+			<word_terrain x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Time</p>
+			<word_time x="0" y="-20"/>
+		</page>
+		<page id="pageDict21">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (Tr-V)</p>
+			<p x="41" y="20" scale="1.5">Tradition</p>
+			<word_tradition x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Transform</p>
+			<word_transform x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Void</p>
+			<word_void x="0" y="-20"/>
+		</page>
+		<page id="pageDict22">
+			<p underline="true" bold="true" align="center" space="10">Dictionary (W)</p>
+			<p x="41" y="20" scale="1.5">Weave</p>
+			<word_weave x="0" y="-20"/>
+			<p x="41" y="20" scale="1.5">Wisdom</p>
+			<word_wisdom x="0" y="-20"/>
+		</page>
+	</chapter>
+</book>

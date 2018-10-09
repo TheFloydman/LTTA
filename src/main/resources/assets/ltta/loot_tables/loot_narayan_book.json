@@ -8,7 +8,7 @@
                     "type": "item",
                     "name": "gbook:guidebook",
                     "entryName": "narayani_mystcraft",
-                    "weight": 50,
+                    "weight": 25,
                     "functions": [
                         {
                             "function": "set_nbt",

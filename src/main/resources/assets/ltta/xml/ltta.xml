@@ -156,7 +156,7 @@
             </large_recipe_centered>
             <space height="50" />
             <p space="10">You may craft a decorative Backboard for your Writing Desk if you would like to add a little flair. It will not change the function of the Writing Desk or grant you any advantages, but you will be the envy of all your fellow Writers.</p>
-            <p>Apple the Backboard by right-clicking on an already-placed Writing Desk.</p>
+            <p>Apply the Backboard by right-clicking on an already-placed Writing Desk.</p>
         </page>
         <page id="pageWritingDeskGUI1">
             <p space="10">The Writing Desk UI is split into two halves.</p>

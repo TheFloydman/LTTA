@@ -164,7 +164,14 @@
     	<image src="ltta:symbolcomponents" tw="512" th="512" tx="192" ty="320" w="64" h="64" x="0" y="0" />
     </template>
     
-    <!-- Narayan words. (Lines 167-1017) -->
+    <!-- Narayan words. (Lines 167-1063) -->
+    
+    <template id="pieces" height="64" width="64">
+        <bc_0 />
+        <bc_1 x="74" />
+        <bc_2 />
+        <bc_3 x="74" />
+    </template>
     
     <template id="word_blank" height="64" width="64">
     	<bc_0 />

@@ -1,14 +1,14 @@
 [
 {
-  "modid": "ltta",
-  "name": "Linking Through the Ages",
-  "description": "A guidebook for Mystcraft.",
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://minecraft.curseforge.com/projects/ltta",
+  "url": "",
   "updateUrl": "",
-  "authorList": ["TheFloydman"],
-  "credits": "Narotiza, Atrius, TrianguloY, Gigaherz, Keybounce, Nightenom, Choonster, Veovis Muad'dib, XCompWiz, CyanideX, and HellFirePVP.",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

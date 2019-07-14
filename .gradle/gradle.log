@@ -34,11 +34,16 @@ Applying Exceptor...
 :extractNatives SKIPPED
 :getAssetIndex UP-TO-DATE
 :getAssets
-Current status: 755/1304   57%
-Current status: 1065/1304   81%
-Current status: 1112/1304   85%
+Current status: 957/1305   73%
+Current status: 1075/1305   82%
 :makeStart
 :setupDecompWorkspace
+:cleanEclipseClasspath
+:cleanEclipseJdt
+:cleanEclipseProject
+:cleanMakeEclipseCleanRunClient
+:cleanMakeEclipseCleanRunServer
+:cleanEclipse
 :eclipseClasspath
 :eclipseJdt
 :eclipseProject
@@ -48,4 +53,4 @@ Current status: 1112/1304   85%
 
 BUILD SUCCESSFUL
 
-Total time: 4 mins 8.777 secs
+Total time: 4 mins 18.786 secs

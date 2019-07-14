@@ -46,14 +46,14 @@
 			</p>
 			<p italics="true" bold="true" align="center">More Mystcraft</p>
 			<p space="20">A collection of miscellaneous additions to Mystcraft. A
-				new section of this guide will appear if it is present.
+				new section of this guide will appear if it is present. <link href="https://www.curseforge.com/minecraft/mc-mods/more-mystcraft">More info here.</link>
 			</p>
 			<p italics="true" bold="true" align="center">Mystcraft Info</p>
-			<p space="20">Adds helpful tooltips for Symbols and Pages.</p>
+			<p space="20">Adds helpful tooltips for Symbols and Pages. <link href="https://www.curseforge.com/minecraft/mc-mods/mystcraft-info">More info here.</link></p>
 			<p italics="true" bold="true" align="center">Pages</p>
 			<p space="20">Makes it very easy to add new block Pages for use in your
 				Ages. Automatically adds hundreds of vanilla and modded blocks and
-				is completely customizable.
+				is completely customizable. <link href="https://www.curseforge.com/minecraft/mc-mods/pages">More info here.</link>
 			</p>
 		</page>
 		<page id="pageTOC1">
@@ -71,11 +71,8 @@
 			<link ref="ch1:pagePortals1" align="center">Portals</link>
 			<link ref="ch1:libraries" align="center">Libraries &amp; Banners</link>
 			<space condition="moreMystcraftPresent" height="20" />
-			<p condition="moreMystcraftPresent" bold="true" align="center">Kevo
-				Teegtahv: Another Work
-			</p>
-			<p condition="moreMystcraftPresent" italics="true" align="center"
-				space="10">A Guide to More Mystcraft</p>
+			<p condition="moreMystcraftPresent" bold="true" align="center">Kevo Teegtahv: Another Work</p>
+			<p condition="moreMystcraftPresent" italics="true" align="center" space="10">A Guide to More Mystcraft</p>
 			<p condition="moreMystcraftPresent" align="center"><link ref="ch1:upgradedLibraries">Libraries &amp; Features</link></p>
 			<p condition="moreMystcraftPresent" align="center"><link ref="ch1:abandonedStudies">Abandoned Studies</link></p>
 			<p condition="moreMystcraftPresent" align="center"><link ref="ch1:sizesAndTilts">Sizes &amp; Tilts</link></p>
@@ -324,13 +321,12 @@
 			</p>
 			<p space="10">Placing an Ink Vial in the top-right slot will fill the
 				vertical inkwell and leave a Glass Bottle in the bottom-right slot.
-				You will also need to place paper in the top-left slot to get
-				started.
+				You will also need to place paper in the top-left slot with one exception.
 			</p>
 			<p space="20">To copy any page, right-click it in the dark display area
 				in the left UI, and a copy will appear in the bottom-left slot of
-				the right UI. If you place a Collation Folder in that slot, all
-				copied Pages will be placed--in order--inside the Folder.
+				the right UI. If the slot contains a Descriptive Book with blank Pages or a Collation Folder,
+				copied Pages will be placed--in order--inside them. Copying to a Descriptive Book with blank Pages also doesn't use up any paper from the top-left slot.
 			</p>
 			<filled_writingdesk>
 				<stack item="minecraft:paper" />
@@ -426,8 +422,7 @@
 			</large_recipe_centered>
 		</page>
 		<page id="pageBookstands">
-			<p underline="true" bold="true" align="center" space="20">Bookstands
-				&amp; Lecterns</p>
+			<p underline="true" bold="true" align="center" space="20">Bookstands</p>
 			<p space="10">Bookstands can be used to display and protect Linking
 				Books and Descriptive Books.
 			</p>
@@ -450,6 +445,7 @@
 			</large_recipe_centered>
 		</page>
 		<page id="pageLecterns">
+			<p underline="true" bold="true" align="center" space="20">Lecterns</p>
 			<p space="10">Lecterns take up a whole block and face one of the four
 				compass directions.
 			</p>
@@ -516,6 +512,24 @@
             <p space="30">If you have an incomplete collection of Pages, never pass up
             the opportunity to plunder a library. You never know what you might find.</p>
             <image src="ltta:photo_portal_and_library" ty="106" w="180" h="105" />
+        </page>
+        <page id="banners">
+            <p underline="true" bold="true" align="center" space="20">Banners</p>
+            <p space="10">Narayni symbols are not limited to only Pages; they can also be written on Banners! All canon Narayani symbols and D'ni numerals can be used as patterns for banners.</p>
+            <p space="10">Normally these banners are only obtainable in Creative Mode, and most only through the /give command, but they are accessible through the Loom block if you have <link href="https://www.curseforge.com/minecraft/mc-mods/what-looms-ahead">What Looms Ahead</link> installed.</p>
+            <p space="20">To craft a blank banner that you can add patterns to, use this recipe with any color wool:</p>
+            <large_recipe_centered>
+                <stack item="minecraft:wool" />
+                <stack item="minecraft:wool" />
+                <stack item="minecraft:wool" />
+                <stack item="minecraft:wool" />
+                <stack item="minecraft:wool" />
+                <stack item="minecraft:wool" />
+                <space />
+                <stack item="minecraft:stick" />
+                <space />
+                <stack item="minecraft:banner" meta="15" />
+            </large_recipe_centered>
         </page>
 		<page id="pageGrammar1">
 			<p underline="true" bold="true" align="center" space="20">Grammar - The
@@ -1399,47 +1413,6 @@
 				biomes and blocks.
 			</p>
 		</page>
-		<page id="pageSpecialThanks1">
-			<p underline="true" bold="true" align="center" space="20">Special Thanks
-			</p>
-			<p space="10">The author owes a debt of gratitude to many people.</p>
-			<p bold="true">Narotiza</p>
-			<p space="10">Narotiza's online guide was indispensable in the creation
-				of this book, including a few images.
-			</p>
-			<p bold="true">Atrius</p>
-			<p space="10">Atrius' knowledge of the rules of the Art helped shape the
-				grammar section.
-			</p>
-			<p bold="true">TrianguloY</p>
-			<p space="10">TrianguloY created very helpful quick guides (in
-				PowerPoint, no less) that were copied almost verbatim for the quick
-				guides in this volume.
-			</p>
-			<p bold="true">Gigaherz</p>
-			<p space="10">Gigaherz wrote and maintains the Guidebook mod, without
-				which this guide would have had to be coded from scratch.
-			</p>
-		</page>
-		<page id="pageSpecialThanks2">
-			<p bold="true">Keybounce</p>
-			<p space="10">Keybounce helped explain how multiple modifiers are
-				combined.
-			</p>
-			<p bold="true">Nightenom</p>
-			<p space="10">Nightenom helped me figure out how to give the player a
-				book on first spawn.
-			</p>
-			<p bold="true">Choonster</p>
-			<p space="10">Choonster provided the perfect example of how to work with
-				config files.
-			</p>
-			<p bold="true">XCompWiz, CyanideX, &amp; HellFirePVP</p>
-			<p space="10">These three created and maintain the amazing Mystcraft
-				mod. I sincerely hope this guide complements their work and makes it
-				more accessible to the average player.
-			</p>
-		</page>
 		<page condition="moreMystcraftPresent" id="upgradedLibraries">
         <p underline="true" bold="true" align="center" space="20">Libraries</p>
         <p space="10">Libraries get a facelift with More Mystcraft.
@@ -1492,8 +1465,7 @@
         <p underline="true" bold="true" align="center" space="20">Biome Distributions</p>
         <p space="10">More Mystcraft adds several Biome Distributions for you to use.</p>
         <p space="10">"Normal" distributions can be used just like the Tiny, Small, Medium, Large, and Huge
-        Biome Distributions, but instead accept a
-        a <link ref="ch1:sizesAndTilts">Size</link> Page.</p>
+        Biome Distributions, but instead accept a <link ref="ch1:sizesAndTilts">Size</link> Page.</p>
         <p space="10">The "Rings" distribution accepts two or more biomes and creates concentric rings that
         continue outward forever. The "Boxes" distribution works the same way, except there are right angles.</p>
         <p space="10">The "Bands" distributions accept two or more biomes and make infinitely-long bands of each biome.</p>
@@ -1558,6 +1530,47 @@
                 <stack item="minecraft:iron_block" />
                 <stack item="moremystcraft:maintainer_suit" />
             </large_recipe_centered>
+        </page>
+        <page id="pageSpecialThanks1">
+            <p underline="true" bold="true" align="center" space="20">Special Thanks
+            </p>
+            <p space="10">The author owes a debt of gratitude to many people.</p>
+            <p bold="true">Narotiza</p>
+            <p space="10">Narotiza's online guide was indispensable in the creation
+                of this book, including a few images.
+            </p>
+            <p bold="true">Atrius</p>
+            <p space="10">Atrius' knowledge of the rules of the Art helped shape the
+                grammar section.
+            </p>
+            <p bold="true">TrianguloY</p>
+            <p space="10">TrianguloY created very helpful quick guides (in
+                PowerPoint, no less) that were copied almost verbatim for the quick
+                guides in this volume.
+            </p>
+            <p bold="true">Gigaherz</p>
+            <p space="10">Gigaherz wrote and maintains the Guidebook mod, without
+                which this guide would have had to be coded from scratch.
+            </p>
+        </page>
+        <page id="pageSpecialThanks2">
+            <p bold="true">Keybounce</p>
+            <p space="10">Keybounce helped explain how multiple modifiers are
+                combined.
+            </p>
+            <p bold="true">Nightenom</p>
+            <p space="10">Nightenom helped me figure out how to give the player a
+                book on first spawn.
+            </p>
+            <p bold="true">Choonster</p>
+            <p space="10">Choonster provided the perfect example of how to work with
+                config files.
+            </p>
+            <p bold="true">XCompWiz, CyanideX, &amp; HellFirePVP</p>
+            <p space="10">These three created and maintain the amazing Mystcraft
+                mod. I sincerely hope this guide complements their work and makes it
+                more accessible to the average player.
+            </p>
         </page>
 	</chapter>
 </book>

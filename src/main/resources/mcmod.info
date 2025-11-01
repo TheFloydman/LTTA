@@ -3,7 +3,7 @@
   "modid": "examplemod",
   "name": "Example Mod",
   "description": "Example placeholder mod.",
-  "version": "${version}",
+  "version": "1.12.2-1.4.1",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
